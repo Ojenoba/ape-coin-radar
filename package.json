@@ -14,7 +14,8 @@
     "preview": "cd frontend && npm run preview",
     "server": "cd backend && npm start",
     "scanner": "cd backend && npm run scanner",
-    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "start": "node backend/server.js"
   },
   "keywords": [
     "solana",
