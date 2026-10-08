@@ -1,0 +1,30 @@
+{
+  "name": "ape-coin-radar",
+  "version": "1.0.0",
+  "description": "Solana token scanner with rug-pull detection",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview",
+    "server": "cd backend && npm start",
+    "scanner": "cd backend && npm run scanner",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "keywords": [
+    "solana",
+    "token-scanner",
+    "rug-check",
+    "dexscreener"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-router-dom": "^7.18.3"
+  }
+}
