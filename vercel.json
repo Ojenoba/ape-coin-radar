@@ -14,7 +14,7 @@
         "frontend": {
             "root": "frontend",
             "framework": "vite",
-            "buildCommand": "npm run build",
+            "buildCommand": "npm install && npm run build",
             "outputDirectory": "dist"
         }
     },
